@@ -1,0 +1,12 @@
+@eslint/js
+@types/express
+@types/jest
+@types/node
+eslint@9.14.0
+jest
+nodemon
+prettier
+prettier-plugin-organize-imports
+ts-node
+typescript
+typescript-eslint

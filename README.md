@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/jscoobyced/jsc-vite-typescript/graph/badge.svg?token=5MLIJ65VBL)](https://codecov.io/gh/jscoobyced/jsc-vite-typescript)
+[![codecov](https://codecov.io/gh/jscoobyced/jsc-api-ts/graph/badge.svg?token=43ZQ0RLXLX)](https://codecov.io/gh/jscoobyced/jsc-api-ts)
 
 ## Simple Typescript API application with Express
 

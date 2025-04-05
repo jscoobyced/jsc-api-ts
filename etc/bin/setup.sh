@@ -8,6 +8,7 @@ prepare_environment() {
     # Reset default environment
     cp ./etc/tpl/package.json.tpl ./${SRC_DIR}/package.json
     cp ./etc/tpl/tsconfig.json.tpl ./${SRC_DIR}/tsconfig.json
+    cp ./etc/tpl/tsconfig.build.json.tpl ./${SRC_DIR}/tsconfig.build.json
 }
 
 build_web() {
@@ -18,7 +19,6 @@ build_web() {
     # Format dependencies to a single line
     DEV_FILES=$(cat ./deps_dev.txt | tr '\n' ' ')
     RUN_FILES=$(cat ./deps_run.txt | tr '\n' ' ')
-    DEV_TEST_FILES=$(cat ./deps_dev_test.txt | tr '\n' ' ')
     # Install dependencies
     if [ "$RUN_FILES" != "" ]; then
         echo "    📦   Installing dependencies"

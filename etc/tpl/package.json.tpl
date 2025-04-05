@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
-    "build": "tsc",
+    "build": "tsc --build tsconfig.build.json",
     "test": "jest",
     "lint": "eslint .",
     "pretty": "prettier --write ."

@@ -11,12 +11,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "skipLibCheck": true,
-
-    // Building
-    "outDir": "./dist",
-    "rootDir": "./src"
+    "skipLibCheck": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "coverage", "dist", "**/*.test.ts"]
+  "exclude": ["node_modules", "coverage", "dist"]
 }

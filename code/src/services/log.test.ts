@@ -6,7 +6,7 @@ jest.mock('./date', () => ({
 }));
 
 describe('LogService', () => {
-  it('should log a message', async () => {
+  it('should log a message', () => {
     const mockConsole = jest.spyOn(console, 'log').mockImplementation();
     log('Hello, world!');
     expect(mockConsole).toHaveBeenCalledWith(

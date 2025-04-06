@@ -3,7 +3,7 @@ import { main } from './main';
 
 jest.mock('./services/log');
 
-describe('index', () => {
+describe('main', () => {
   it('should start the server', async () => {
     const server = main(3000);
     await request(server).get('/').expect(200);

@@ -8,5 +8,6 @@ export const defaultRoute = (
   response: ExpressResponse,
 ) => {
   void request;
-  response.send('JSC API TypeScript');
+  const message = process.env.APP_NAME ?? 'JSC API TypeScript';
+  response.send(message);
 };
